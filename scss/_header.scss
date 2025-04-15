@@ -3,11 +3,17 @@
  */
 
 .header {
-  width: min(100%, 768px);
-  margin: 0 auto;
-  padding: 0 clamp(0.75rem, 2%, 1.5rem);
+  background-color: #ffffff;
+
+  &__inner {
+    width: min(100%, 768px);
+    margin: 0 auto;
+    padding: 0 clamp(0.75rem, 2%, 1.5rem);
+  }
 }
 
 #logo {
   width: 7.2rem;
+  margin: 0;
+  padding: 1.5rem 0 0.75rem;
 }

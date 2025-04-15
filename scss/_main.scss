@@ -3,10 +3,11 @@
  */
 
 .main {
-  width: min(100%, 768px);
+  width: min(100%, 900px);
   min-height: calc(100vh - 18rem);
   margin: 0 auto;
-  padding: 0 clamp(0.75rem, 2%, 1.5rem);
+  padding: 0 clamp(0.75rem, 2%, 18px);
+  color: #ffffff;
 
   &__title {
     &::after {
@@ -36,7 +37,7 @@
     }
 
     &--spec {
-      color: themeColor("dark");
+      color: themeColor("lighter");
       font-size: 0.875rem;
       letter-spacing: $headingLetterSpacing;
   
